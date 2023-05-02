@@ -71,8 +71,8 @@ const App = () => {
       setCurrentNumber('0');
       setOperation('/');
     } else {
-      const multi = Number(firstNumber) / Number(currentNumber);
-      setCurrentNumber(String(multi));
+      const div = Number(firstNumber) / Number(currentNumber);
+      setCurrentNumber(String(div));
       setOperation('');
 
     }
